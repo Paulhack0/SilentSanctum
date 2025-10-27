@@ -26,8 +26,8 @@ import { AuthModule } from '@auth0/auth0-angular';
     HttpClientModule,
     ReactiveFormsModule,
     AuthModule.forRoot({
-      domain: 'dev-fdrytlmsrrl5pguy.us.auth0.com',
-      clientId: 'PwHsFYICVwWQq76nZHp2UgfjSgZOBAS5',
+      domain: 'YOUR_AUTH0_DOMAIN',
+      clientId: 'YOUR_AUTH0_CLIENT_ID',
       authorizationParams: {
         redirect_uri: window.location.origin + '/home',
       },

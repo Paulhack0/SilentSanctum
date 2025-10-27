@@ -5,7 +5,7 @@ const db_username = process.env.DB_USERNAME;
 const db_password = process.env.DB_PASSWORD;
 const mongoose = require("mongoose");
 const cors = require('cors');
-mongoose.connect("mongodb://127.0.0.1:27017/mothdb", {
+mongoose.connect("mongodb://127.0.0.1:27017/YOUR_DATABASE", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
